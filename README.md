@@ -2,28 +2,28 @@
 
 ## _Q: Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: Artemis Financial is a consulting company that develops individualized financial plans for its customers. The financial plans include savings, retirement, investments, and insurance. They desired to modernize their software operations, and requested assistance in utilizing current and effective security for their web application. Their main issue was to protect client data & financial information.
 
 ## _Q: What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: Through the use of the Maven Dependency Check, I was able to effectively see and understand where the main security vulnerabilities stemmed from in Artemis's software. Utilizing this tool made identifying the main issues of security with the application an effective part of delivering a successful security report. Coding securely is a key deterence method against malicious cyber attacks, and against those who would seek to steal/do harm to others through exploiting vulnerabilities. Ensuring that a system has the most up-to-date libraries/3rd party dependencies/plug-ins allows a company to have the peace of mind of a strong security at it's core, and ensures that they follow key principles of industry standards and cybersecurity laws.
 
 ## _Q: Which part of the vulnerability assessment was challenging or helpful to you?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: A challenging portion of the vulnerability assessment was the algorithm cipher. The utilizaiton of this security measure is necessary for any business measure and online operations, but the choosing and recommendation to a specific businesses needs is challenging. In the case of Artemis Financial, after detailed research, it was apparent that the AES cipher would work best, as it's a key feature that many other banks/financial firms incorporate into their systems. But the choice does not apply for every business/company. Some programs might not need to utilize a large block cyptorgraphic algorithm like AES. Catering an algorithm cipher to a company's needs and business operations is a challenging but necessary step; and doing so through Artemis Financial was a vauluable experience.
 
 ## _Q: How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: Incorporation of a certificate for secure communications, as well as a cyrptographic cipher deepened the layers of security for Artemis Financial. These are common security measures that are paramount for a safe and secure communication channels. Additionally, the utilization of the Maven Dependency Check was a major help in assessing the vulnerabilities and overall security of the Artemis program. Using analysis tools like the Dependency Check is a mitigation technique I've come to understand is a necessary process when dealing with modern software. Ensuring that a system is scanned, tested, and resolved of potential vulnerabilities is essential to helping a company and it's users safe operation of the application; while also ensuring that important data and information doesn't fall into the wrong hands.
 
 ## _Q: How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: The use of the Maven Dependency Check was a great tool to help ensure that the code I both added and was in charge of refactoring did not introduce any new vulnerabilities to the system. After adding both the Java Keytool made certificate and the SHA-256 cipher algorithm, the dependecy check report showed no additional vulnerabilities, and that the code I implemented was both working as intended, was clean and well commented, and only further improved the systems security. Additioanlly, the code I refactored (both the secure communication and the updates to the Spring plug-in) further improved the security of the system and greatly reduced the total number of vulnerabilities according to the dependency check reports. These results are in line with industry coding best standards; the values of code that doesn't harm the company, environment, or Artemis Financial's clients were implemented through the code I added/refactored.
 
 ## _Q: What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: Useful resources like the OWASP reports and the use of a Vulnerability Assessment Process Flow Diagram (VAPFD) helped me learn and develop a greater sense of security while reviewing software. Tools like the Maven Depenedency Check and the National Vulnerability Database made identifying and resolving and providing a factual report on Artemis Financial's security issues a breeze. Through the resources and tools provided, I was able to develop a greater sense of secure and industry standard coding practices that can greatly benefit me in any future software creation/review scenario, and helped increase my overall awareness of the necessity of software security for the future.
 
 ## _Q: Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?_ ##
 
-### A: [Insert Answer Here Later]###
+### A: One of the key issues with Artemis Financial's program was that it's use of dependencies (specifically the Spring Framework) was not on the latest version. This caused the program to have an estimated 142 vulnerabilities while using the outdated Java 1.8 version and Spring version 2.6.4. Upon refactoring and applying the lastest version of Spring that still operates on Java 1.8: Spring version 2.7.18, the total vulnerabilities then dropped to 27, over 115 vulnerabilities were resolved. This not only shows the importance of keeping an up-to-date version of both the operating language and it's plug-ins, but goes to show that the use of a security analysis tool can greatly improve the overall security of any system. My work through this project helped me see that important aspect, as well as gave me experience that I can apply to future security testing scenarios.
